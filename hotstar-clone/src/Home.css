@@ -15,9 +15,13 @@
 
 .home__image {
   width: 100%;
-  z-index: -1;
-  margin-bottom: -150px;
+  height: 400px;
+  object-fit: cover;
   /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+}
+
+.home__container__div {
+  border: 10px solid black;
 }
 
 .home__heading {

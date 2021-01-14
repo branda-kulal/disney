@@ -10,7 +10,7 @@ function Header() {
       {/* <Link to="/"> */}
       <img
         className="header__logo"
-        src="https://images.livemint.com/img/2020/03/13/600x338/H_1584102286500.JPG"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Disney%2B_Hotstar_logo.svg/1200px-Disney%2B_Hotstar_logo.svg.png"
       />
       {/* </Link> */}
 
