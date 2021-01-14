@@ -9,55 +9,55 @@ import Slider from "react-slick";
 function Home() {
   var settings = {
     infinite: true,
-    centerPadding: '64px',
+    centerPadding: "64px",
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: true,
-    arrows: false
+    arrows: false,
   };
   return (
     <div>
       <Slider {...settings}>
-        <div className="home__container__div" >
+        <div className="home__container__div">
           <img
             className="home__image"
             src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/905/840905-h"
             alt=""
           />
         </div>
-        <div  className="home__container__div">
+        <div className="home__container__div">
           <img
             className="home__image"
-            src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/905/840905-h"
+            src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/6723/876723-h"
             alt=""
           />
         </div>
-        <div  className="home__container__div">
+        <div className="home__container__div">
           <img
             className="home__image"
-            src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/905/840905-h"
+            src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/6769/826769-h"
             alt=""
           />
         </div>
-        <div  className="home__container__div">
+        <div className="home__container__div">
           <img
             className="home__image"
-            src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/905/840905-h"
+            src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/9289/849289-h"
             alt=""
           />
         </div>
-        <div  className="home__container__div">
+        <div className="home__container__div">
           <img
             className="home__image"
-            src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/905/840905-h"
+            src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/7591/877591-h"
             alt=""
           />
         </div>
-        <div  className="home__container__div">
+        <div className="home__container__div">
           <img
             className="home__image"
-            src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/905/840905-h"
+            src="https://vs.hotstarext.com/i/362x1170_0/0ea7879e03abb0d627616e85bdfec230.jpeg"
             alt=""
           />
         </div>
