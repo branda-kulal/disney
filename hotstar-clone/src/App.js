@@ -8,9 +8,6 @@ function App() {
     <div className="app">
       <Header />
       <Home />
-      {/* Header*/}
-      {/* Home */}
-      {/* Footer */}
     </div>
   );
 }
