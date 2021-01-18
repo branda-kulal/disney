@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Header.css";
 //import SearchIcon from "@material-ui/icons/Search";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ViewHeadlineIcon from "@material-ui/icons/ViewHeadline";
 
 function Header() {
@@ -58,9 +58,11 @@ function Header() {
           </span>
         </div>
 
-        <div className="header__option">
-          <span className="header__optionLineOne">LOGIN</span>
-        </div>
+        <Link to="/login">
+          <div className="header__option">
+            <span className="header__optionLineOne">LOGIN</span>
+          </div>
+        </Link>
       </div>
     </div>
   );

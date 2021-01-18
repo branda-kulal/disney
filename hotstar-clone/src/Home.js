@@ -8,13 +8,15 @@ import Slider from "react-slick";
 
 function Home() {
   var settings = {
-    infinite: true,
     centerPadding: "64px",
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: true,
     arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
   };
   return (
     <div>
@@ -65,16 +67,9 @@ function Home() {
       <div className="home">
         <div className="home__container">
           <div className="home__heading">Best in Sports</div>
-          {/* <Slider {...settings}>
-          <div className="">a</div>
-          <div className="">1</div>
-          <div className="">2</div>
-          <div className="">3</div>
-          <div className="">4</div>
-          <div className="">5</div>
-        </Slider> */}
+
           <div className="home__row">
-            <Template image="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_1_5x/sources/r1/cms/prod/3256/883256-h" />
+            <Template image="https://media3.giphy.com/media/e1zRqh01gSArS/200w.webp?cid=ecf05e475te8rvj1vf4ihmihtuud9u898y8iwa981x09jlbf&rid=200w.webp" />
             <Template image="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_1_5x/sources/r1/cms/prod/8207/538207-h" />
             <Template image="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/3879/883879-h" />
             <Template image="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/3256/883256-h" />
